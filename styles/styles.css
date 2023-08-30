@@ -90,9 +90,9 @@
   background-repeat: no-repeat;
   background-size: 100%;
   background-blend-mode: overlay;
+  padding: 120px 30px 60px 30px;
 }
 #header .header-banner .banner {
-  padding: 120px 30px;
   text-align: center;
 }
 #header .header-banner .banner-tittle {
@@ -106,4 +106,37 @@
   font-size: 20px;
   font-weight: 400;
   color: #ffffff;
+}
+
+/* Choice and search part styles */
+#header .choice {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 160px;
+
+  margin: 150px 0 40px 0;
+  padding: 30px 60px;
+  background-color: #ffffff;
+  border-radius: 8px;
+}
+#header .choice .choice-tittle {
+  font-size: 16px;
+  font-weight: 600;
+  color: #2c3a61;
+  margin-bottom: 8px;
+}
+#header .choice select {
+  border: 1px solid transparent;
+  font-size: 16px;
+  font-weight: 400;
+  color: #889099;
+  padding: 10px 0;
+}
+#header .choice select:focus {
+  outline: 1px solid #4a60a1;
+  border-radius: 4px;
+}
+#header .choice option {
+  color: #0f1320;
 }
