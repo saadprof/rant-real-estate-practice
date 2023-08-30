@@ -6,3 +6,48 @@
   font-family: "Inter", sans-serif;
 }
 
+
+/* Actual styles here */
+/* Header Styles */
+#header .nav{
+    padding: 20px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Header logo style */
+#header .header-logo{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+#header .header-logo h4{
+    font-size: 24px;
+    font-weight: 600;
+    color: #4A60A1;
+}
+#header .header-logo p{
+    font-size: 14px;
+    font-weight: 500;
+    color: #4A60A1;
+}
+
+/* Header nav,ul,li,a items styles */
+#header .nav-items{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+#header .nav-items li{
+    list-style-type: none;
+}
+#header .nav-items a{
+    text-decoration: none;
+    font-size: 14px;
+    color: #0F1320;
+    padding: 8px 16px;
+}
+#header .nav-items a:hover{
+    border-bottom: 2px solid #0F1320;
+}
