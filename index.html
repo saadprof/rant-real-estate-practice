@@ -16,7 +16,6 @@
   <body>
     <!-- Header for nav and header-banner -->
     <header id="header">
-
       <!-- Header Nav part -->
       <nav class="nav">
         <div class="header-logo">
@@ -58,46 +57,90 @@
           <div>
             <h4 class="choice-tittle">Locations</h4>
             <select name="cities" id="cities">
-                <option value="city">Select your city</option>
-                <option value="city">Addieville</option>
-                <option value="city">Albers</option>
-                <option value="city">Barrington Hills</option>
-                <option value="city">Camargo</option>
-                <option value="city">Deerfield</option>
+              <option value="city">Select your city</option>
+              <option value="city">Addieville</option>
+              <option value="city">Albers</option>
+              <option value="city">Barrington Hills</option>
+              <option value="city">Camargo</option>
+              <option value="city">Deerfield</option>
             </select>
           </div>
           <div>
             <h4 class="choice-tittle">Property Type</h4>
             <select name="property-type" id="property-type">
-                <option value="city">Select property type</option>
-                <option value="city">Single-Family Home</option>
-                <option value="city">Townhome</option>
-                <option value="city">Bungalow Hills</option>
-                <option value="city">Ranch</option>
-                <option value="city">Condos</option>
+              <option value="city">Select property type</option>
+              <option value="city">Single-Family Home</option>
+              <option value="city">Townhome</option>
+              <option value="city">Bungalow Hills</option>
+              <option value="city">Ranch</option>
+              <option value="city">Condos</option>
             </select>
           </div>
           <div>
             <h4 class="choice-tittle">Rent Range</h4>
             <select name="rent-range" id="rent-range">
-                <option value="city">Select rent range</option>
-                <option value="city">$500 - $800</option>
-                <option value="city">$800 - $1500</option>
-                <option value="city">$1500 - $2000</option>
-                <option value="city">$2k - $3k</option>
-                <option value="city">$3k - $5k</option>
+              <option value="city">Select rent range</option>
+              <option value="city">$500 - $800</option>
+              <option value="city">$800 - $1500</option>
+              <option value="city">$1500 - $2000</option>
+              <option value="city">$2k - $3k</option>
+              <option value="city">$3k - $5k</option>
             </select>
           </div>
           <div>
             <button class="primary-btn">Search</button>
           </div>
         </div>
-        
       </div>
     </header>
 
     <!-- Main section for all properties part -->
-    <main id="main"></main>
+    <main id="main">
+
+      <!-- Properties by area part -->
+      <section class="propertiesByArea">
+        <h3 class="propertiesByArea-tittle">Properties by Area</h3>
+        <p class="propertiesByArea-desc">
+          Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
+          posuere cubilia curae; Proin sodales ultrices nulla blandit volutpat.
+        </p>
+
+        <div>
+            <!-- Three sections parts -->
+            <div class="threeSectProperties">
+                <div class="firstOf3sectProperties">
+                    <h3 class="threeSectProperties-tittle">Centerville</h3>
+                    <p class="threeSectProperties-desc">25 listings</p>
+                </div>
+                <div class="secondOf3sectProperties">
+                    <h3 class="threeSectProperties-tittle">Centerville</h3>
+                    <p class="threeSectProperties-desc">25 listings</p>
+                </div>
+                <div class="thirdOf3sectProperties">
+                    <h3 class="threeSectProperties-tittle">Centerville</h3>
+                    <p class="threeSectProperties-desc">25 listings</p>
+                </div>
+            </div>
+
+            <!-- Two sections parts -->
+            <div class="twoSectProperties">
+                <div class="firstOf2sectProperties">
+                    <div class="properties-card">
+                        <h3 class="twoSectProperties-tittle">Arlington</h3>
+                        <p class="twoSectProperties-desc">25 listings</p>
+                    </div>
+                </div>
+                <div class="secondOf2sectProperties">
+                    <div class="properties-card">
+                        <h3 class="twoSectProperties-tittle">Centerville</h3>
+                        <p class="twoSectProperties-desc">25 listings</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </section>
+
+    </main>
 
     <!-- Footer section for contact form, social, terms and other stuffs. -->
     <footer id="footer"></footer>

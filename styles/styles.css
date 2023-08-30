@@ -140,3 +140,99 @@
 #header .choice option {
   color: #0f1320;
 }
+
+/* Main part styles */
+/* Properties by area styles */
+#main .propertiesByArea {
+  width: 80%;
+  margin: 60px auto;
+}
+#main .propertiesByArea-tittle {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 600;
+  color: #1e2640;
+}
+#main .propertiesByArea-desc {
+  text-align: center;
+  margin: 15px 0 40px 0;
+  font-size: 20px;
+  font-weight: 400;
+  color: #889099;
+}
+
+#main .propertiesByArea .threeSectProperties-tittle,
+.twoSectProperties-tittle {
+  font-size: 24px;
+  font-weight: 600;
+  color: #ffffff;
+}
+#main .propertiesByArea .threeSectProperties-desc,
+.twoSectProperties-desc {
+  font-size: 16px;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+#main .propertiesByArea .threeSectProperties {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 20px;
+}
+#main .propertiesByArea .firstOf3sectProperties {
+  background-image: url(../images/properties/properties1.png),
+    linear-gradient(to right, rgba(59, 77, 129, 0.4), rgba(59, 77, 129, 0.4));
+  padding: 15px 215px 150px 15px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  border-radius: 8px;
+  background-blend-mode: overlay;
+}
+#main .propertiesByArea .secondOf3sectProperties {
+  background-image: url(../images/properties/properties2.png),
+    linear-gradient(rgba(59, 77, 129, 0.4), rgba(59, 77, 129, 0.4));
+  padding: 15px 215px 150px 15px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  border-radius: 8px;
+  background-blend-mode: overlay;
+}
+#main .propertiesByArea .thirdOf3sectProperties {
+  background-image: url(../images/properties/properties3.png),
+    linear-gradient(rgba(59, 77, 129, 0.4), rgba(59, 77, 129, 0.4));
+  padding: 15px 215px 150px 15px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  border-radius: 8px;
+  background-blend-mode: overlay;
+}
+
+#main .propertiesByArea .twoSectProperties {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 20px;
+  gap: 20px;
+}
+#main .propertiesByArea .firstOf2sectProperties {
+  background-image: url(../images/properties/properties4.png),
+    linear-gradient(rgba(59, 77, 129, 0.4), rgba(59, 77, 129, 0.4));
+  background-repeat: no-repeat;
+  background-size: 100%;
+  border-radius: 8px;
+  background-blend-mode: overlay;
+  width: 100%;
+}
+#main .propertiesByArea .secondOf2sectProperties {
+  background-image: url(../images/properties/properties5.png),
+    linear-gradient(rgba(59, 77, 129, 0.4), rgba(59, 77, 129, 0.4));
+  background-repeat: no-repeat;
+  background-size: 100%;
+  border-radius: 8px;
+  background-blend-mode: overlay;
+  width: 100%;
+}
+#main .propertiesByArea .properties-card {
+    padding: 15px 415px 210px 15px;
+}
