@@ -5,49 +5,105 @@
   font-family: "Public Sans", sans-serif;
   font-family: "Inter", sans-serif;
 }
-
+.primary-btn {
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #4a60a1;
+  border: 1px solid #4a60a1;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+  transition: 0.3s all ease;
+}
+.primary-btn:hover {
+  background-color: #ffffff;
+  border: 1px solid #4a60a1;
+  color: #4a60a1;
+}
+.secondary-btn {
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #ffffff;
+  border: 1px solid #4a60a1;
+  color: #4a60a1;
+  font-size: 16px;
+  font-weight: 500;
+  transition: 0.3s all ease;
+}
+.secondary-btn:hover {
+  background-color: #4a60a1;
+  border: 1px solid #4a60a1;
+  color: #ffffff;
+}
 
 /* Actual styles here */
 /* Header Styles */
-#header .nav{
-    padding: 20px 40px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+#header .nav {
+  padding: 20px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 /* Header logo style */
-#header .header-logo{
-    display: flex;
-    align-items: center;
-    gap: 5px;
+#header .header-logo {
+  display: flex;
+  align-items: center;
+  gap: 5px;
 }
-#header .header-logo h4{
-    font-size: 24px;
-    font-weight: 600;
-    color: #4A60A1;
+#header .header-logo h4 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #4a60a1;
 }
-#header .header-logo p{
-    font-size: 14px;
-    font-weight: 500;
-    color: #4A60A1;
+#header .header-logo p {
+  font-size: 14px;
+  font-weight: 500;
+  color: #4a60a1;
 }
 
 /* Header nav,ul,li,a items styles */
-#header .nav-items{
-    display: flex;
-    align-items: center;
-    gap: 5px;
+#header .nav-items {
+  display: flex;
+  align-items: center;
+  gap: 5px;
 }
-#header .nav-items li{
-    list-style-type: none;
+#header .nav-items li {
+  list-style-type: none;
 }
-#header .nav-items a{
-    text-decoration: none;
-    font-size: 14px;
-    color: #0F1320;
-    padding: 8px 16px;
+#header .nav-items a {
+  text-decoration: none;
+  font-size: 14px;
+  color: #0f1320;
+  padding: 8px 16px;
 }
-#header .nav-items a:hover{
-    border-bottom: 2px solid #0F1320;
+#header .nav-items a:hover {
+  border-bottom: 2px solid #0f1320;
+}
+
+/* Header banner styles */
+#header .header-banner {
+  background-image: url(../images/header-banner.png),
+    linear-gradient(rgba(6, 48, 83, 0.5), rgba(6, 48, 83, 0.5));
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-blend-mode: overlay;
+}
+#header .header-banner .banner {
+  padding: 120px 30px;
+  text-align: center;
+}
+#header .header-banner .banner-tittle {
+  font-family: "Public Sans", sans-serif;
+  font-size: 52px;
+  font-weight: 600;
+  color: #ffffff;
+}
+#header .header-banner .banner-desc {
+  margin: 20px 0 40px 0;
+  font-size: 20px;
+  font-weight: 400;
+  color: #ffffff;
 }
