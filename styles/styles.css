@@ -244,7 +244,7 @@
 }
 
 #main .youMightLike .youMightLikeText {
-  padding-top: 50px;
+  padding-top: 80px;
   text-align: center;
 }
 #main .youMightLike .youMightLike-textTittle {
@@ -253,7 +253,7 @@
   color: #1e2640;
 }
 #main .youMightLike .youMightLike-textdisc {
-  margin: 10px 0 40px 0;
+  margin: 10px 0 30px 0;
   font-size: 16px;
   font-weight: 400;
   color: #889099;
@@ -308,7 +308,7 @@
 }
 #main .latestProperties .latestProperties-desc {
   width: 50%;
-  margin: 10px auto 40px auto;
+  margin: 10px auto 30px auto;
 
   font-size: 16px;
   font-weight: 400;
@@ -347,7 +347,7 @@
   color: #4A60A1;
 }
 
-#main .latestProperties > img, .latestProperties > p, .latestProperties-moreDetails{
+#main .latestProperties-content > img, .latestProperties-content > p, .latestProperties-moreDetails{
   margin-bottom: 18px;
 }
 #main .latestProperties .latestProperties-moreDetails{
