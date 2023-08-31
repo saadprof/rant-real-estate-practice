@@ -156,7 +156,7 @@
 #main .propertiesByArea-desc {
   text-align: center;
   margin: 15px 0 40px 0;
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 400;
   color: #889099;
 }
@@ -235,4 +235,63 @@
 }
 #main .propertiesByArea .properties-card {
     padding: 15px 415px 210px 15px;
+}
+
+
+/* You might be like to section styles here */
+#main .youMightLike{
+  background-color: #EDEFF6;
+  margin-bottom: 80px;
+}
+
+#main .youMightLike .youMightLikeText{
+  padding-top: 50px;
+  text-align: center;
+}
+#main .youMightLike .youMightLike-textTittle{
+  font-size: 40px;
+  font-weight: 600;
+  color: #1E2640;
+}
+#main .youMightLike .youMightLike-textdisc{
+  margin: 10px 0 40px 0;
+  font-size: 16px;
+  font-weight: 400;
+  color: #889099;
+}
+
+#main .youMightLike .content{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 0 80px 50px 80px;
+}
+#main .youMightLike .contentElem{
+  background-color: #FFFFFF;
+  padding: 20px;
+  border-radius: 4px;
+}
+#main .youMightLike .contentElem img, .contentElem-tittle, .contentElem-desc{
+  margin-bottom: 20px;
+}
+
+#main .youMightLike .contentElem img{
+  width: 60px;
+}
+#main .youMightLike .contentElem .contentElem-tittle{
+  font-size: 24px;
+  font-weight: 600;
+  color: #363A3D;
+}
+#main .youMightLike .contentElem .contentElem-desc{
+  font-size: 16px;
+  font-weight: 400;
+  color: #889099;
+  line-height: 24px;
+}
+#main .youMightLike .contentElem a{
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 400;
+  color: #4A60A1;
 }
