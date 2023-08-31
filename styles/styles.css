@@ -234,64 +234,168 @@
   width: 100%;
 }
 #main .propertiesByArea .properties-card {
-    padding: 15px 415px 210px 15px;
+  padding: 15px 415px 210px 15px;
 }
 
-
 /* You might be like to section styles here */
-#main .youMightLike{
-  background-color: #EDEFF6;
+#main .youMightLike {
+  background-color: #edeff6;
   margin-bottom: 80px;
 }
 
-#main .youMightLike .youMightLikeText{
+#main .youMightLike .youMightLikeText {
   padding-top: 50px;
   text-align: center;
 }
-#main .youMightLike .youMightLike-textTittle{
+#main .youMightLike .youMightLike-textTittle {
   font-size: 40px;
   font-weight: 600;
-  color: #1E2640;
+  color: #1e2640;
 }
-#main .youMightLike .youMightLike-textdisc{
+#main .youMightLike .youMightLike-textdisc {
   margin: 10px 0 40px 0;
   font-size: 16px;
   font-weight: 400;
   color: #889099;
 }
 
-#main .youMightLike .content{
+#main .youMightLike .content {
   display: flex;
   align-items: center;
   gap: 20px;
   padding: 0 80px 50px 80px;
 }
-#main .youMightLike .contentElem{
-  background-color: #FFFFFF;
+#main .youMightLike .contentElem {
+  background-color: #ffffff;
   padding: 20px;
   border-radius: 4px;
 }
-#main .youMightLike .contentElem img, .contentElem-tittle, .contentElem-desc{
+#main .youMightLike .contentElem img,
+.contentElem-tittle,
+.contentElem-desc {
   margin-bottom: 20px;
 }
 
-#main .youMightLike .contentElem img{
+#main .youMightLike .contentElem img {
   width: 60px;
 }
-#main .youMightLike .contentElem .contentElem-tittle{
+#main .youMightLike .contentElem .contentElem-tittle {
   font-size: 24px;
   font-weight: 600;
-  color: #363A3D;
+  color: #363a3d;
 }
-#main .youMightLike .contentElem .contentElem-desc{
+#main .youMightLike .contentElem .contentElem-desc {
   font-size: 16px;
   font-weight: 400;
   color: #889099;
   line-height: 24px;
 }
-#main .youMightLike .contentElem a{
+#main .youMightLike .contentElem a {
   text-decoration: none;
   font-size: 16px;
   font-weight: 400;
+  color: #4a60a1;
+}
+
+/* Latest properties of rent styles */
+#main .latestProperties .latestProperties-text {
+  text-align: center;
+}
+#main .latestProperties .latestProperties-tittle {
+  font-size: 40px;
+  font-weight: 600;
+  color: #1e2640;
+}
+#main .latestProperties .latestProperties-desc {
+  width: 50%;
+  margin: 10px auto 40px auto;
+
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  color: #889099;
+}
+
+#main .latestProperties .latestProperties-contentContainer {
+  padding: 0 80px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+#main .latestProperties .latestProperties-content > img {
+  width: 100%;
+  height: 180px;
+  border-radius: 10px;
+}
+#main .latestProperties .latestProperties-content {
+  border-radius: 10px;
+  padding: 15px 10px;
+  background-color: #ffffff;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  transition: 1s all ease;
+}
+
+#main .latestProperties .latestProperties-propertyName{
+  font-size: 14px;
+  font-weight: 500;
+  color: #363A3D;
+}
+#main .latestProperties .latestProperties-propertyPrice{
+  font-size: 13px;
+  font-weight: 600;
   color: #4A60A1;
+}
+
+#main .latestProperties img, p, .latestProperties-moreDetails{
+  margin-bottom: 18px;
+}
+#main .latestProperties .latestProperties-moreDetails{
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+#main .latestProperties .latestProperties-moreDetails p{
+  font-size: 15px;
+  font-weight: 500;
+  color: #6D737A;
+}
+#main .latestProperties .latestProperties-moreDetails > div > span{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+#main .latestProperties .latestProperties-userOpt{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#main .latestProperties .latestProperties-user{
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+#main .latestProperties .latestProperties-user img{
+  width: 32px;
+  border-radius: 15px;
+}
+#main .latestProperties .latestProperties-userName{
+  font-size: 14px;
+  font-weight: 500;
+  color: #363A3D;
+}
+
+#main .latestProperties .latestProperties-option ul{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+#main .latestProperties .latestProperties-option li{
+  list-style-type: none;
+}
+
+#main .latestProperties .latestProperties-showMore{
+  text-align: center;
+  margin: 30px 0 80px 0;
 }
