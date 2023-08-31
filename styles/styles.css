@@ -347,7 +347,7 @@
   color: #4A60A1;
 }
 
-#main .latestProperties img, p, .latestProperties-moreDetails{
+#main .latestProperties > img, .latestProperties > p, .latestProperties-moreDetails{
   margin-bottom: 18px;
 }
 #main .latestProperties .latestProperties-moreDetails{
@@ -395,7 +395,87 @@
   list-style-type: none;
 }
 
-#main .latestProperties .latestProperties-showMore{
+#main .loadMoreListings{
   text-align: center;
-  margin: 30px 0 80px 0;
+  margin: 30px 0 150px 0;
+}
+
+
+/* More Latest properties */
+#main .moreLatest{
+  margin-bottom: 150px;
+}
+#main .moreLatest .moreLatest-text{
+  text-align: center;
+}
+#main .moreLatest .moreLatest-tittle{
+   font-size: 40px;
+   font-weight: 600;
+   color: #1E2640;
+}
+#main .moreLatest .moreLatest-desc{
+   font-size: 16px;
+   font-weight: 400;
+   line-height: 28px;
+   color: #889099;
+   margin: 10px 0 30px 0;
+}
+
+#main .moreLatest .moreLatest-contentContainer{
+  margin: 0 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#main .moreLatest .content1{
+  background-image: url(../images/properties/properties9.png),
+  linear-gradient(rgba(29, 40, 71, 0.4), rgba(29, 40, 71, 0.507));
+  background-repeat: no-repeat;
+  background-size: 100%;
+  border-radius: 6px;
+  background-blend-mode: overlay;
+}
+#main .moreLatest .content2{
+  background-image: url(../images/properties/properties10.png),
+  linear-gradient(rgba(29, 40, 71, 0.4), rgba(29, 40, 71, 0.507));
+  background-repeat: no-repeat;
+  background-size: 120%;
+  border-radius: 6px;
+  background-blend-mode: overlay;
+}
+#main .moreLatest .content3{
+  background-image: url(../images/properties/properties11.png),
+  linear-gradient(rgba(29, 40, 71, 0.4), rgba(29, 40, 71, 0.507));
+  background-repeat: no-repeat;
+  background-size: 100%;
+  border-radius: 6px;
+  background-blend-mode: overlay;
+}
+#main .moreLatest .content4{
+  background-image: url(../images/properties/properties12.png),
+  linear-gradient(rgba(29, 40, 71, 0.4), rgba(29, 40, 71, 0.507));
+  background-repeat: no-repeat;
+  background-size: 100%;
+  border-radius: 6px;
+  background-blend-mode: overlay;
+}
+#main .moreLatest-contentContainer .content-location, .content-propertySize{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 6px;
+}
+
+#main .moreLatest .alignContents{
+  display: flex;
+  align-items: center;
+  gap: 15px;
+
+  padding: 300px 20px 20px 20px;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+}
+#main .moreLatest .alignContents > img{
+  width: 24px;
 }
