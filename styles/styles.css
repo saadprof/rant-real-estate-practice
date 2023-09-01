@@ -638,3 +638,7 @@
 }
 
                 /* Properties page styles */
+/* All properties styles */
+#main .allProperties{
+  margin: 90px 0 50px 0;
+}
