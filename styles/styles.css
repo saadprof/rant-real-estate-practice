@@ -612,5 +612,29 @@
 }
 
 
+/* Properties page header Banner style */
+#header .headerBanner{
+  background-image: url(../images/properties/properties6.png),
+  linear-gradient(rgba(29, 40, 71, 0.664), rgba(29, 40, 71, 0.664));
+  background-blend-mode: overlay;
+  text-align: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 75%;
+}
+#header .headerBanner > div{
+  padding: 80px 500px;
+}
+#header .headerBanner .headerBanner-tittle{
+  font-size: 52px;
+  font-weight: 600;
+  color: #FFFFFF;
+}
+#header .headerBanner .headerBanner-desc{
+  font-size: 16px;
+  font-weight: 500;
+  color: #E7E9EB;
+  margin-top: 12px;
+}
 
                 /* Properties page styles */
